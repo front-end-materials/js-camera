@@ -26,9 +26,15 @@ canvas {
   position: relative;
   margin: 0 auto;
   bottom: 32px;
+  outline: none;
   background-color: rgba(0, 150, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 2px;
-  font-size: .8em;
+  border-radius: 3px;
   color: rgba(255, 255, 255, 1.0);
+}
+.camera button:hover {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 1.0);
+}
+.camera button:active {
+  box-shadow: none;
 }
